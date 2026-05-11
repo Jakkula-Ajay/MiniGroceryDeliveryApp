@@ -8,7 +8,11 @@ const CartProvider = ({ children }) => {
 
   const addToCart = (product) => {
     setCart(prev => {
-      const existing = prev.find(item => item.id === product.id);
+     if (!product) return prev;
+
+    const existing = prev.find(
+      item => item.id === product.id
+    );
 
       if (existing) {
         return prev.map(item =>

@@ -87,7 +87,7 @@ const CartScreen = ({ navigation }) => {
           </View>
         )}
       />
-      <View style={styles.footer}>\
+      <View style={styles.footer}>
         <Text style={styles.billTitle}>
           Bill Summary
         </Text>

@@ -31,7 +31,7 @@ const OtpScreen = ({
 
       login();
 
-      navigation.replace('Home');
+      
 
     } else {
 

@@ -13,7 +13,7 @@ import { CartContext } from '../context/CartContext';
 
 const CheckoutScreen = ({ navigation, route }) => {
 
-  const { total } = route.params;
+  const total = route?.params?.total || 0;
 
   const { cart, clearCart } =
     useContext(CartContext);
@@ -37,17 +37,17 @@ const CheckoutScreen = ({ navigation, route }) => {
       Math.floor(
         Math.random() * 100000
       );
-    navigation.replace(
-      'Success',
-      {
-        orderId,
-        total,
-        address,
-        paymentMethod,
-        cart,
-      }
-    );
-    clearCart();
+    navigation.replace('Success', {
+  orderId,
+  total,
+  address,
+  paymentMethod,
+  cart,
+});
+
+setTimeout(() => {
+  clearCart();
+}, 500);
   };
   return (
     <ScrollView style={styles.container}>
@@ -104,7 +104,7 @@ const CheckoutScreen = ({ navigation, route }) => {
         <View style={styles.row}>
           <Text>Total Items</Text>
           <Text>
-            {cart.length}
+            {cart?.length || 0}
           </Text>
         </View>
         <View style={styles.row}>

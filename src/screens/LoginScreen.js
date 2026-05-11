@@ -15,7 +15,7 @@ const LoginScreen = ({ navigation }) => {
     <View style={styles.container}>
 
       <Text style={styles.title}>
-        Blinkit Clone
+       Mini Blinkit
       </Text>
 <TextInput
         placeholder="Enter Mobile Number"
