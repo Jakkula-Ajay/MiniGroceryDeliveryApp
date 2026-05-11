@@ -5,8 +5,9 @@ export const products = [
     name: 'Fresh Milk',
     price: 40,
     category: 'Dairy',
+    description: 'Fresh cow milk 1 litre',
     image:
-      'https://m.media-amazon.com/images/I/71s6xJx14dL.jpg',
+      'https://images.unsplash.com/photo-1563636619-e9143da7973b',
   },
 
   {
@@ -14,8 +15,9 @@ export const products = [
     name: 'Brown Bread',
     price: 35,
     category: 'Bakery',
+    description: 'Healthy brown bread',
     image:
-      'https://m.media-amazon.com/images/I/81TttKrN9VL.jpg',
+      'https://images.unsplash.com/photo-1509440159596-0249088772ff',
   },
 
   {
@@ -23,8 +25,9 @@ export const products = [
     name: 'Apple',
     price: 120,
     category: 'Fruits',
+    description: 'Fresh red apples',
     image:
-      'https://m.media-amazon.com/images/I/81xQBbqFHYL.jpg',
+      'https://images.unsplash.com/photo-1567306226416-28f0efdc88ce',
   },
 
   {
@@ -32,8 +35,9 @@ export const products = [
     name: 'Banana',
     price: 60,
     category: 'Fruits',
+    description: 'Fresh bananas',
     image:
-      'https://m.media-amazon.com/images/I/61fZ+YAYGaL.jpg',
+      'https://images.unsplash.com/photo-1603833665858-e61d17a86224',
   },
 
   {
@@ -41,8 +45,9 @@ export const products = [
     name: 'Tomato',
     price: 30,
     category: 'Vegetables',
+    description: 'Organic tomatoes',
     image:
-      'https://m.media-amazon.com/images/I/71dySRQ2wQL.jpg',
+      'https://images.unsplash.com/photo-1546094096-0df4bcaaa337',
   },
 
   {
@@ -50,8 +55,9 @@ export const products = [
     name: 'Potato',
     price: 25,
     category: 'Vegetables',
+    description: 'Fresh potatoes',
     image:
-      'https://m.media-amazon.com/images/I/61yXL70-RaL.jpg',
+      'https://images.unsplash.com/photo-1518977676601-b53f82aba655',
   },
 
   {
@@ -59,8 +65,9 @@ export const products = [
     name: 'Rice Bag',
     price: 550,
     category: 'Groceries',
+    description: 'Premium rice bag 25kg',
     image:
-      'https://m.media-amazon.com/images/I/71F3F8z3kKL.jpg',
+      'https://images.unsplash.com/photo-1586201375761-83865001e31c',
   },
 
   {
@@ -68,8 +75,9 @@ export const products = [
     name: 'Cooking Oil',
     price: 180,
     category: 'Groceries',
+    description: 'Sunflower cooking oil',
     image:
-      'https://m.media-amazon.com/images/I/61x6Fj8KFpL.jpg',
+      'https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5',
   },
 
   {
@@ -77,8 +85,9 @@ export const products = [
     name: 'Potato Chips',
     price: 20,
     category: 'Snacks',
+    description: 'Crispy salted potato chips',
     image:
-      'https://m.media-amazon.com/images/I/71D4Kj8QmKL.jpg',
+      'https://images.unsplash.com/photo-1566478989037-eec170784d0b',
   },
 
   {
@@ -86,8 +95,9 @@ export const products = [
     name: 'Chocolate Cookies',
     price: 50,
     category: 'Snacks',
+    description: 'Tasty chocolate cookies',
     image:
-      'https://m.media-amazon.com/images/I/81gV5zM8sJL.jpg',
+      'https://images.unsplash.com/photo-1499636136210-6f4ee915583e',
   },
 
   {
@@ -95,8 +105,9 @@ export const products = [
     name: 'Coca Cola',
     price: 45,
     category: 'Beverages',
+    description: 'Cold drink 750ml',
     image:
-      'https://m.media-amazon.com/images/I/61oL1gVhLHL.jpg',
+      'https://images.unsplash.com/photo-1622483767028-3f66f32aef97',
   },
 
   {
@@ -104,8 +115,9 @@ export const products = [
     name: 'Orange Juice',
     price: 90,
     category: 'Beverages',
+    description: 'Fresh orange juice',
     image:
-      'https://m.media-amazon.com/images/I/71lJd7x9h0L.jpg',
+      'https://images.unsplash.com/photo-1600271886742-f049cd451bba',
   },
 
 ];

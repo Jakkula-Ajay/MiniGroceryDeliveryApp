@@ -99,7 +99,7 @@ const ProductCard = ({
         onPress={() =>
           navigation.navigate(
             'Details',
-            { product: item }
+            { item }
           )
         }
       >
